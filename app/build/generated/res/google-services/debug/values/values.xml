@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">254810613506-i9629innqcqcu992gl86bbepc5upa821.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://lab3-3d1fe-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">254810613506</string>
+    <string name="google_api_key" translatable="false">AIzaSyDKsT2P9tE76SnSIl71A0xnCX4GVrTMquI</string>
+    <string name="google_app_id" translatable="false">1:254810613506:android:8d913332cb6878903f841b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDKsT2P9tE76SnSIl71A0xnCX4GVrTMquI</string>
+    <string name="google_storage_bucket" translatable="false">lab3-3d1fe.appspot.com</string>
+    <string name="project_id" translatable="false">lab3-3d1fe</string>
+</resources>

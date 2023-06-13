@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.example.mygps.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/drawable_world_turning.gif.flat",
+        "source": "com.example.mygps.app-main-39:/drawable/world_turning.gif"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mygps.app-main-39:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mygps.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/drawable_world_turning_opt.gif.flat",
+        "source": "com.example.mygps.app-main-39:/drawable/world_turning_opt.gif"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.mygps.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mygps.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mygps.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.mygps.app-merged_res-37:/drawable_banana_dance.gif.flat",
+        "source": "com.example.mygps.app-main-39:/drawable/banana_dance.gif"
+    }
+]
