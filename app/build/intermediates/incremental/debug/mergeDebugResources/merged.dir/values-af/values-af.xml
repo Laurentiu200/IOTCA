@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">Meld aan</string>
     <string name="common_signin_button_text_long">Meld aan met Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Gebruik wagwoord"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Skakel is na knipbord gekopieer"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Onbekende fout"</string>
     <string name="error_icon_content_description">Fout</string>
     <string name="exposed_dropdown_menu_content_description">Wys aftrekkieslys</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Gebruik jou gesig of skermslot om voort te gaan"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Gebruik jou gesig om voort te gaan"</string>
-    <string name="fcm_fallback_notification_channel_label">Diverse</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopieer skakel"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Maak in blaaier oop"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Deel skakel"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Vingerafdrukikoon"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Raak die vingerafdruksensor"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Vingerafdrukhardeware is nie beskikbaar nie."</string>

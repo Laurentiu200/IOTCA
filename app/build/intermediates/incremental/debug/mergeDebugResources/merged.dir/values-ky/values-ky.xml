@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">Кирүү</string>
     <string name="common_signin_button_text_long">Google менен кирүү</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Сырсөз колдонуу"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Шилтеме буферге көчүрүлдү"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Белгисиз ката"</string>
     <string name="error_icon_content_description">Ката</string>
     <string name="exposed_dropdown_menu_content_description">Түрүлмө менюну көрсөтүү</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Улантуу үчүн жүзүңүздү же экрандын кулпусун колдонуңуз"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Улантуу үчүн жүзүңүздү көрсөтүңүз"</string>
-    <string name="fcm_fallback_notification_channel_label">Аралаш</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Шилтемени көчүрүү"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Серепчиден ачуу"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Шилтемени бөлүшүү"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Манжа изинин сүрөтчөсү"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Манжа изинин сенсорун басыңыз"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Манжа изинин аппараттык камсыздоосу жеткиликтүү эмес."</string>

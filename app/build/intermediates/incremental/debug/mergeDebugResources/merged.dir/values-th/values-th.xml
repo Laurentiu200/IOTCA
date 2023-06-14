@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">ลงชื่อเข้าใช้</string>
     <string name="common_signin_button_text_long">ลงชื่อเข้าใช้ด้วย Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"ใช้รหัสผ่าน"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"ข้อผิดพลาดที่ไม่รู้จัก"</string>
     <string name="error_icon_content_description">ข้อผิดพลาด</string>
     <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"ใช้ใบหน้าหรือการล็อกหน้าจอเพื่อดำเนินการต่อ"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"ใช้ใบหน้าของคุณเพื่อดำเนินการต่อ"</string>
-    <string name="fcm_fallback_notification_channel_label">เบ็ดเตล็ด</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"คัดลอกลิงก์"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"เปิดในเบราว์เซอร์"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"แชร์ลิงก์"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"ไอคอนลายนิ้วมือ"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"แตะเซ็นเซอร์ลายนิ้วมือ"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"ฮาร์ดแวร์ลายนิ้วมือไม่พร้อมใช้งาน"</string>

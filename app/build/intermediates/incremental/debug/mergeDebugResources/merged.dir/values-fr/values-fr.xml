@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">Se connecter</string>
     <string name="common_signin_button_text_long">Se connecter avec Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Utiliser un mot de passe"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Lien copié dans le presse-papiers"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Erreur inconnue"</string>
     <string name="error_icon_content_description">Erreur</string>
     <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Utilisez la reconnaissance faciale ou le verrouillage de l\'écran pour continuer"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Utilisez la reconnaissance faciale pour continuer"</string>
-    <string name="fcm_fallback_notification_channel_label">Divers</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copier le lien"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ouvrir dans un navigateur"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partager le lien"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Icône d\'empreinte digitale"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Appuyez sur lecteur d\'empreinte"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Matériel de lecture d\'empreinte digitale indisponible."</string>

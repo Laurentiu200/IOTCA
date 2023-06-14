@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">로그인</string>
     <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"비밀번호 사용"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"클립보드에 링크 복사됨"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"알 수 없는 오류"</string>
     <string name="error_icon_content_description">오류</string>
     <string name="exposed_dropdown_menu_content_description">드롭다운 메뉴 표시</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"계속하려면 얼굴 또는 화면 잠금을 사용하세요."</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"계속하려면 얼굴 인식을 사용하세요."</string>
-    <string name="fcm_fallback_notification_channel_label">기타</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"링크 복사"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"브라우저에서 열기"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"링크 공유"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"지문 아이콘"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"지문 센서를 터치하세요."</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"지문 인식 하드웨어를 사용할 수 없습니다."</string>

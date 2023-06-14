@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyGPS</string>
+    <string name="location_link"><a href="https://www.geeksforgeeks.org/">geeksforgeeks.org</a></string>
 </resources>

@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">Kirjaudu sisään</string>
     <string name="common_signin_button_text_long">Kirjaudu Google-tilille</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Käytä salasanaa"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkki kopioitu leikepöydälle"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Tuntematon virhe"</string>
     <string name="error_icon_content_description">Virhe</string>
     <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Jatka kasvojentunnistuksen tai näytön lukituksen avulla"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Jatka kasvojesi avulla"</string>
-    <string name="fcm_fallback_notification_channel_label">Muut</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopioi linkki"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Avaa selaimessa"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Jaa linkki"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Sormenjälkikuvake"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Kosketa sormenjälkitunnistinta"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Sormenjälkilaitteisto ei ole käytettävissä."</string>

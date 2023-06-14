@@ -110,6 +110,8 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
             android:text="Unavailable"
+            android:linksClickable="true"
+            android:autoLink="web"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.462"
             app:layout_constraintStart_toEndOf="@+id/valid_loc3"

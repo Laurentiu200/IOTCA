@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">సైన్ ఇన్ చేయండి</string>
     <string name="common_signin_button_text_long">Googleతో సైన్ ఇన్ చేయండి</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"పాస్‌వర్డ్‌ను ఉపయోగించు"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"క్లిప్‌బోర్డ్‌కు లింక్ కాపీ చేయబడింది"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"తెలియని ఎర్రర్"</string>
     <string name="error_icon_content_description">ఎర్రర్</string>
     <string name="exposed_dropdown_menu_content_description">డ్రాప్‌డౌన్ మెనూను చూపు</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"కొనసాగించడానికి మీ ముఖాన్ని లేదా స్క్రీన్ లాక్‌ను ఉపయోగించండి"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"కొనసాగించడానికి మీ ముఖాన్ని ఉపయోగించండి"</string>
-    <string name="fcm_fallback_notification_channel_label">ఇతరాలు</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"లింక్‌ను కాపీ చేయి"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"బ్రౌజర్‌లో తెరువు"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"లింక్‌ను షేర్ చేయి"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"వేలిముద్ర చిహ్నం"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"వేలిముద్ర సెన్సార్‌ను తాకండి"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"వేలిముద్ర హార్డ్‌వేర్ అందుబాటులో లేదు."</string>

@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">साइन इन गर्नुहोस्</string>
     <string name="common_signin_button_text_long">Google मार्फत साइन‍ इन गर्नुहोस्</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"पासवर्ड प्रयोग गर्नुहोस्"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"क्लिपबोर्डमा लिंक प्रतिलिपि गरियो"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"अज्ञात त्रुटि"</string>
     <string name="error_icon_content_description">त्रुटि</string>
     <string name="exposed_dropdown_menu_content_description">ड्रपडाउन मेनु देखाउनुहोस्</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"जारी राख्न आफ्नो फेस वा स्क्रिन लक प्रयोग गरी पुष्टि गर्नुहोस्"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"जारी राख्न आफ्नो फेस प्रयोग गरी पुष्टि गर्नुहोस्"</string>
-    <string name="fcm_fallback_notification_channel_label">विविध</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक प्रतिलिपि गर्नुहोस्"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउजरमा खोल्नुहोस्"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक सेयर गर्नुहोस्"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"फिंगरप्रिन्ट जनाउने आइकन"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"फिंगरप्रिन्ट सेन्सरमा छुनुहोस्‌"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"फिंगरप्रिन्ट हार्डवेयर उपलब्ध छैन।"</string>

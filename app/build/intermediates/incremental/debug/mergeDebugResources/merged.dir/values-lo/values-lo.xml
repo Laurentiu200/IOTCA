@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">ລົງຊື່ເຂົ້າໃຊ້</string>
     <string name="common_signin_button_text_long">ລົງຊື່ເຂົ້າໃຊ້ດ້ວຍ Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"ໃຊ້ລະຫັດຜ່ານ"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"ສຳເນົາລິ້ງໃສ່ຄລິບບອດແລ້ວ"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"ຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"</string>
     <string name="error_icon_content_description">ຜິດພາດ</string>
     <string name="exposed_dropdown_menu_content_description">ສະແດງເມນູເລື່ອນລົງ</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"ໃຊ້ໜ້າ ຫຼື ການລັອກໜ້າຈໍຂອງທ່ານເພື່ອດຳເນີນການຕໍ່"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"ໃຊ້ໜ້າທ່ານເພື່ອດຳເນີນການຕໍ່"</string>
-    <string name="fcm_fallback_notification_channel_label">ອື່ນໆ</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ສຳເນົາລິ້ງ"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ເປີດໃນໂປຣແກຣມທ່ອງເວັບ"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ແບ່ງປັນລິ້ງ"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"ໄອຄອນລາຍນິ້ວມື"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"ແຕະເຊັນເຊີລາຍນິ້ວມື"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"ບໍ່​ມີ​ຮາດ​ແວລາຍ​ນີ້ວ​ມື​ທີ່ສາມາດໃຊ້ໄດ້."</string>

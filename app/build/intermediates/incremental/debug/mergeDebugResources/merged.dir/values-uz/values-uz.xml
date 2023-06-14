@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">Kirish</string>
     <string name="common_signin_button_text_long">Google orqali kirish</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Paroldan foydalanish"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Havoladan vaqtinchalik xotiraga nusxa olindi"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Notanish xato"</string>
     <string name="error_icon_content_description">Xato</string>
     <string name="exposed_dropdown_menu_content_description">Pastga ochiluvchi menyuni ochish</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Davom etish uchun yuz tekshiruvi yoki ekran qulfidan foydalaning"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Yuz tekshiruvi bilan davom eting"</string>
-    <string name="fcm_fallback_notification_channel_label">Har xil</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Havoladan nusxa olish"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Brauzerda ochish"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Havolani ulashish"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Barmoq izi belgisi"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Barmoq izi skaneriga tegining"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Barmoq izi skaneri ish holatida emas."</string>

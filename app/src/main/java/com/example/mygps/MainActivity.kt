@@ -1,19 +1,22 @@
 package com.example.mygps
 
-import android.net.ConnectivityManager
-import android.net.Network
-import android.net.NetworkCapabilities
-import android.net.NetworkRequest
+
+import android.content.Intent
+import android.graphics.Paint
+import android.net.*
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.BiometricManager.Authenticators.*
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
+import com.google.firebase.FirebaseApp
 import com.google.firebase.database.*
+import com.google.firebase.messaging.FirebaseMessaging
 import java.util.concurrent.Executor
 
 
@@ -38,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     var curr_long: Double ?= null
 
     //gps location view
-    var gps_link = "https://www.youtube.com/watch?v=xvFZjo5PgG0&t=2s&ab_channel=Duran"
+    var gps_link = "http://35.173.198.116"
     var gps_view: TextView? = null
 
     // valid location view
@@ -46,6 +49,9 @@ class MainActivity : AppCompatActivity() {
 
     // angle of inclination view
     var inclination: TextView? = null
+
+    // topic to which we subscribe
+    private var topic = "trouble"
 
     private lateinit var executor: Executor
     private lateinit var biometricPrompt: BiometricPrompt
@@ -91,12 +97,14 @@ class MainActivity : AppCompatActivity() {
                     if(value == "true")
                     {
                         val_loc?.text = "Yes"
-                        gps_view?.text = gps_link
+                        gps_view?.text = "Go to location"
+                        gps_view?.paintFlags = Paint.UNDERLINE_TEXT_FLAG
                     }
                     else
                     {
                         val_loc?.text = "No"
-                        gps_view?.text = "Waiting for satellites"
+                        gps_view?.text = "Waiting for satellites..."
+                        gps_view?.paintFlags = Paint.UNDERLINE_TEXT_FLAG
                     }
                 }
                 if(data_to_retrieve == "angle")
@@ -124,9 +132,28 @@ class MainActivity : AppCompatActivity() {
         firebaseDatabase!!.getReference("armed_values/angle")!!.setValue(inclination!!.text)
     }
 
+    private fun subscribeToNotificationTopic(topic: String) {
+        FirebaseApp.initializeApp(this)
+        FirebaseMessaging.getInstance().subscribeToTopic(topic)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        subscribeToNotificationTopic(topic)
+        // Declare the launcher at the top of your Activity/Fragment:
+        val requestPermissionLauncher = registerForActivityResult(
+            ActivityResultContracts.RequestPermission(),
+        ) { isGranted: Boolean ->
+            if (isGranted) {
+                // FCM SDK (and your app) can post notifications.
+            } else {
+                // TODO: Inform user that that your app will not show notifications.
+            }
+        }
+
+
 
         status = findViewById(R.id.StatusView)
         arming_btn = findViewById(R.id.arming_button)
@@ -135,6 +162,17 @@ class MainActivity : AppCompatActivity() {
         val_loc = findViewById(R.id.valid_loc_txt)
         gps_view = findViewById(R.id.textView3)
         inclination = findViewById(R.id.inclination_txt)
+
+        gps_view?.setOnClickListener {
+            if(gps_view?.text != "Waiting for satellites...")
+            {
+                val viewIntent = Intent(
+                    "android.intent.action.VIEW",
+                    Uri.parse(gps_link)
+                )
+                startActivity(viewIntent)
+            }
+        }
 
         getdata("armed")
         getdata("lat")
@@ -145,26 +183,30 @@ class MainActivity : AppCompatActivity() {
         executor = ContextCompat.getMainExecutor(this)
         biometricPrompt = BiometricPrompt(this, executor,
             object : BiometricPrompt.AuthenticationCallback() {
-                override fun onAuthenticationError(errorCode: Int,
-                                                   errString: CharSequence) {
+                override fun onAuthenticationError(
+                    errorCode: Int,
+                    errString: CharSequence
+                ) {
                     super.onAuthenticationError(errorCode, errString)
-                    Toast.makeText(applicationContext,
-                        "Authentication error: $errString", Toast.LENGTH_SHORT)
+                    Toast.makeText(
+                        applicationContext,
+                        "Authentication error: $errString", Toast.LENGTH_SHORT
+                    )
                         .show()
                 }
 
                 override fun onAuthenticationSucceeded(
-                    result: BiometricPrompt.AuthenticationResult) {
+                    result: BiometricPrompt.AuthenticationResult
+                ) {
                     super.onAuthenticationSucceeded(result)
-                    Toast.makeText(applicationContext,
-                        "Authentication succeeded!", Toast.LENGTH_SHORT)
+                    Toast.makeText(
+                        applicationContext,
+                        "Authentication succeeded!", Toast.LENGTH_SHORT
+                    )
                         .show()
-                    if(status?.text == "Armed")
-                    {
+                    if (status?.text == "Armed") {
                         saveDatatoFirebase("armed", "false")
-                    }
-                    else
-                    {
+                    } else {
                         saveDatatoFirebase("armed", "true")
                         saveDatatoFirebaseArmedValues()
                     }
@@ -172,8 +214,10 @@ class MainActivity : AppCompatActivity() {
 
                 override fun onAuthenticationFailed() {
                     super.onAuthenticationFailed()
-                    Toast.makeText(applicationContext, "Authentication failed",
-                        Toast.LENGTH_SHORT)
+                    Toast.makeText(
+                        applicationContext, "Authentication failed",
+                        Toast.LENGTH_SHORT
+                    )
                         .show()
                 }
             })
@@ -192,11 +236,9 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.arming_button)
 
         button.setOnClickListener {
-            if(!(findViewById<Button>(R.id.arming_button).text.equals("Unavailable"))) {
+            if (!(findViewById<Button>(R.id.arming_button).text.equals("Unavailable"))) {
                 biometricPrompt.authenticate(promptInfo)
-            }
-            else
-            {
+            } else {
                 val alertDialog: AlertDialog = builder.create()
                 alertDialog.show()
             }
@@ -228,7 +270,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val connectivityManager = getSystemService(ConnectivityManager::class.java) as ConnectivityManager
+        val connectivityManager =
+            getSystemService(ConnectivityManager::class.java) as ConnectivityManager
         connectivityManager.requestNetwork(networkRequest, networkCallback)
 
     }

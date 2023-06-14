@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">ସାଇନ୍‌-ଇନ୍ କରନ୍ତୁ</string>
     <string name="common_signin_button_text_long">Google ସହ ସାଇନ୍‌-ଇନ୍ କରନ୍ତୁ</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"ପାସ୍‌ୱାର୍ଡ୍ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"ଲିଙ୍କକୁ କ୍ଲିପ୍‍‍ବୋର୍ଡରେ କପି କରାଯାଇଛି"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"ଅଜଣା ତ୍ରୁଟି"</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"ଜାରି ରଖିବାକୁ ଆପଣଙ୍କ ଫେସ କିମ୍ବା ସ୍କ୍ରିନ ଲକ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"ଜାରି ରଖିବାକୁ ଆପଣଙ୍କ ଫେସ ବ୍ୟବହାର କରନ୍ତୁ"</string>
-    <string name="fcm_fallback_notification_channel_label">ଅନ୍ୟାନ୍ୟ</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ଲିଙ୍କ୍ କପି କରନ୍ତୁ"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ବ୍ରାଉଜର୍‌ରେ ଖୋଲନ୍ତୁ"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ଲିଙ୍କ୍ ସେୟାର୍ କରନ୍ତୁ"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"ଟିପଚିହ୍ନ ଆଇକନ୍"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"ଟିପଚିହ୍ନ ସେନସର୍‌କୁ ଛୁଅଁନ୍ତୁ"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"ଟିପଚିହ୍ନ ହାର୍ଡୱେର୍‍ ଉପଲବ୍ଧ ନାହିଁ।"</string>

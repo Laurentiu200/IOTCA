@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">Inicia sessió</string>
     <string name="common_signin_button_text_long">Inicia la sessió amb Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Utilitza la contrasenya"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"S\'ha copiat l\'enllaç al porta-retalls"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Error desconegut"</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Mostra el menú desplegable</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Utilitza la cara o el bloqueig de pantalla per continuar"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Utilitza la cara per continuar"</string>
-    <string name="fcm_fallback_notification_channel_label">Altres</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copia l\'enllaç"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Obre al navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Comparteix l\'enllaç"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Icona d\'empremta digital"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Toca sensor d\'empremtes"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"El maquinari d\'empremtes digitals no està disponible."</string>

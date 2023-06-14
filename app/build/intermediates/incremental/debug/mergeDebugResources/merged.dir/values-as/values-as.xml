@@ -60,12 +60,15 @@
     <string name="common_signin_button_text">ছাইন ইন কৰক</string>
     <string name="common_signin_button_text_long">Googleৰ জৰিয়তে ছাইন ইন কৰক</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"পাছৱৰ্ড ব্যৱহাৰ কৰক"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"লিংক ক্লিপব’ৰ্ডত প্ৰতিলিপি কৰা হ’ল"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"অজ্ঞাত আসোঁৱাহ"</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"অব্যাহত ৰাখিবলৈ আপোনাৰ মুখাৱয়ব অথবা স্ক্ৰীন লক ব্যৱহাৰ কৰক"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"অব্যাহত ৰাখিবলৈ নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰক"</string>
-    <string name="fcm_fallback_notification_channel_label">বিবিধ</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"লিংক প্ৰতিলিপি কৰক"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ব্ৰাউজাৰত খোলক"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"লিংক শ্বেয়াৰ কৰক"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"ফিংগাৰপ্ৰিণ্টৰ চিহ্ন"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো স্পৰ্শ কৰক"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"ফিংগাৰপ্ৰিণ্ট হাৰ্ডৱেৰ নাই।"</string>

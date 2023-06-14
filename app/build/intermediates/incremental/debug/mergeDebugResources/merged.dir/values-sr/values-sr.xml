@@ -61,12 +61,15 @@
     <string name="common_signin_button_text">Пријави ме</string>
     <string name="common_signin_button_text_long">Пријави ме на Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"Користите лозинку"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Линк је копиран у привремену меморију"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"Непозната грешка"</string>
     <string name="error_icon_content_description">Грешка</string>
     <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Користите лице или закључавање екрана да бисте наставили"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"Потврдите идентитет лицем да бисте наставили"</string>
-    <string name="fcm_fallback_notification_channel_label">Разно</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копирај линк"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отвори у прегледачу"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Дели линк"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Икона отиска прста"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Додирн. сензор за отисак прста"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Хардвер за отиске прстију није доступан."</string>

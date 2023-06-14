@@ -62,12 +62,15 @@
     <string name="common_signin_button_text">כניסה</string>
     <string name="common_signin_button_text_long">‏היכנס באמצעות Google</string>
     <string msgid="5912733858573823945" name="confirm_device_credential_password">"שימוש בסיסמה"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"הקישור הועתק ללוח"</string>
     <string msgid="4776854077120974966" name="default_error_msg">"שגיאה לא ידועה"</string>
     <string name="error_icon_content_description">שגיאה</string>
     <string name="exposed_dropdown_menu_content_description">הצגת התפריט הנפתח</string>
     <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"צריך להשתמש בזיהוי הפנים או בנעילת המסך כדי להמשיך"</string>
     <string msgid="2282389249605674226" name="face_prompt_message">"צריך להשתמש בזיהוי הפנים כדי להמשיך"</string>
-    <string name="fcm_fallback_notification_channel_label">שונות</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"העתקת הקישור"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"פתיחה בדפדפן"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"לשיתוף הקישור"</string>
     <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"סמל טביעת אצבע"</string>
     <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"יש לגעת בחיישן טביעות האצבע"</string>
     <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"החומרה בשביל טביעת אצבע אינה זמינה."</string>
