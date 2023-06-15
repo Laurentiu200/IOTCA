@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mygps.app-mergeDebugResources-35:/values-v23/values-v23.xml",
+            "outputFile": "com.example.mygps.app-mergeDebugResources-36:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pasquale\\.gradle\\caches\\transforms-3\\3c5a83be559e1a116603ada0589a1089\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.messaging.FirebaseMessaging;
 
+// view to subscribe to topic, like in the lab but adapted to our needs
 public class HomeActivity extends AppCompatActivity {
 
     @Override

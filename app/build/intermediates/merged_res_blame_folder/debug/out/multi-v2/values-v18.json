@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mygps.app-mergeDebugResources-35:/values-v18/values-v18.xml",
+            "outputFile": "com.example.mygps.app-mergeDebugResources-36:/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pasquale\\.gradle\\caches\\transforms-3\\1a310c7aefbc9461bf16a6114fc44e74\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",

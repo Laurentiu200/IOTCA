@@ -22,6 +22,7 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+//firebase messaging service to receive notification almost exactly like in the lab
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "FIREBASE_MESSAGING";
@@ -29,19 +30,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     public MyFirebaseMessagingService() {
     }
-
-//    FirebaseUser mUser = FirebaseAuth.getInstance().getCurrentUser();
-//    mUser.getIdToken(true).addOnCompleteListener(new OnCompleteListener<GetTokenResult>() {
-//        public void onComplete(@NonNull Task<GetTokenResult> task) {
-//            if (task.isSuccessful()) {
-//                String idToken = task.getResult().getToken();
-//                // Send token to your backend via HTTPS
-//                // ...
-//            } else {
-//                // Handle error -> task.getException();
-//            }
-//        }
-//    });
 
     @Override
     public void onNewToken(@NonNull String token) {
@@ -57,10 +45,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
-        // ...
 
-        // TODO(developer): Handle FCM messages here.
-        // Not getting messages here? See why this may be: https://goo.gl/39bRNJ
         Log.d(TAG, "From: " + remoteMessage.getFrom());
 
         // Check if message contains a data payload.
@@ -78,9 +63,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         if (remoteMessage.getNotification() != null) {
             Log.d(TAG, "Message Notification Body: " + remoteMessage.getNotification().getBody());
         }
-
-        // Also if you intend on generating your own notifications as a result of a received FCM
-        // message, here is where that should be initiated. See sendNotification method below.
     }
 
     private void handleNow() {
